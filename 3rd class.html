@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Glenn Maxwell</title></head>
+    |<body>
+        <p id="1st"></p>
+        <script>
+            var yt="coding";
+            document.write(yt.toUpperCase());
+            var fb="PROGRAMMING";
+            console.log(fb.toLowerCase());
+            let ins="maxwell";
+            alert(ins.toUpperCase());
+            let cri="AB";
+            console.log(cri.startsWith("A"));
+            console.log(cri.startsWith("B"));
+            console.log(Math.random());
+            var cricket=["maxwell","ab de villiars","klassen","dhoni","gayle","warner","head"];
+            var text="";
+            var i;
+            for(i=0;i<cricket.length;i++)
+            {
+                text=text + cricket[i] + "<br>";
+            }
+            document.getElementById("1st").innerHTML=text;
+            let country = prompt("Write the country number according to the volume of SAARC country");
+            country = parseInt(country);
+            switch(country){
+                case 1:
+                    console.log("India");
+                    break;
+                case 2:
+                    console.log("Pakistan");
+                    break;
+                case 3:
+                    console.log("Afghanistan");
+                    break;
+                case 4:
+                    console.log("Bangladesh");
+                    break;
+                case 5:
+                    console.log("Nepal");
+                    break;
+                case 6:
+                    console.log("Sri-Lanka");
+                    break;
+                case 7:
+                    console.log("Bhutan");
+                    break;
+                case 8:
+                    console.log("Maldives");
+                    break;
+            }
+        </script>
+    </body>
+</html>
